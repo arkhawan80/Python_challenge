@@ -1,6 +1,7 @@
 import os
 import csv
 
+
 csvpath = os.path.join(r"C:\Users\arkha\Desktop\bootcamp\nu-chi-data-pt-02-2020-u-c\Homework\03-Python\Instructions\PyBank\Resources\budget_data.csv") 
 
 with open(csvpath, "r")as csvfile:
@@ -22,8 +23,6 @@ with open(csvpath, "r")as csvfile:
     total_net = 0
 
 
- 
-    
     # for row in csvreader:
     #     totatl_months = sum(row[0]).count()
     #     print(total_months)
