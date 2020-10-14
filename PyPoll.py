@@ -1,7 +1,6 @@
 import os
 import csv
 
-
 csvpath = os.path.join("..", "Resources", ["election_data.csv"])
 
 with open(csvpath, "rw")as csvfile:
@@ -13,8 +12,7 @@ with open(csvpath, "rw")as csvfile:
     percent_votes = []
     total_votes = 0
     
-    
-    
+   
     for votes in num_votes:
         total_vote = sum("voter_id").value()
         print(total_vote)
